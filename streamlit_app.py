@@ -76,7 +76,6 @@ if uploaded_file is not None:
     else:
         st.success(f"✅ **Verdict:** The AI predicts this is **{verdict}**.")
         
-    st.info(f"📈 **Model Confidence Score:** {confidence:.2f}%")
-
+    
 else:
     st.write("💡 *Please upload a graphic file to run the computer vision analysis.*")
