@@ -1,0 +1,12 @@
+# Ignore local Kaggle cache if generated locally
+.kaggle/
+/.kagglehub/
+
+# System files
+__pycache__/
+*.pyc
+.DS_Store
+
+# Virtual environment files
+venv/
+.env
