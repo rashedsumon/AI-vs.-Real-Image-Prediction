@@ -11,7 +11,7 @@ from model import CIFAKEClassifier
 # --- STREAMLIT UI CONFIGURATION ---
 st.set_page_config(page_title="CIFAKE Image Detector", page_icon="🤖", layout="centered")
 
-st.title("🤖 AI vs. Real Image Classifier")
+st.title("🤖 AI vs. Real Image Prediction")
 st.subheader("Detect images generated via Stable Diffusion / Midjourney using Deep Learning")
 
 # --- DATASET & MODEL CONFIGURATION ---
